@@ -41,5 +41,38 @@ Validation data does not include :
   
 - NB_VALID : No of persons travelling
 
-  ## Problem Statement:
+## Problem Statement:
   Forecast the no of people per Station per day
+
+## Description
+
+This project focuses on analyzing and forecasting rail traffic using a dataset containing features such as date, station name, ticket category, and the number of persons traveling on a particular day. The goal is to forecast the number of persons traveling on specific dates.
+
+## Features Explored
+
+- **Date Range Analysis**: Determined the range of dates covered in the dataset.
+- **Station Analysis**: Identified unique station names and analyzed traffic patterns across stations.
+- **Data Cleaning**: Implemented cleaning steps such as filling unusual values with the most frequent ones.
+- **Visual Analysis**: Utilized visualizations to explore insights like traffic variations across months, ticket category sales, and station-wise traffic.
+- **Weekend Analysis**: Investigated whether weekends exhibited higher traffic compared to weekdays.
+
+## Methodology
+
+- **Exploratory Data Analysis (EDA)**: Conducted initial EDA to understand data distributions and patterns.
+- **Linear Regression Model**: Utilized linear regression to train a model on the dataset, using features like date, station name, and ticket category to predict the number of persons traveling on a particular day.
+- **Model Evaluation**: Evaluated the model's performance using train-test data and analyzed the coefficients of each feature.
+
+
+## Future Work
+- Model Improvement: Explore advanced modeling techniques for better forecasting accuracy.
+- Feature Engineering: Experiment with additional features to enhance model performance.
+- Visualization Enhancement: Improve visualizations to convey insights more effectively.
+
+## Contributing
+- Contributions are welcome! Please open an issue or submit a pull request with any enhancements or fixes.
+
+## Credits
+Data Source: https://www.kaggle.com/datasets/gatandubuc/public-transport-traffic-data-in-france
+
+
+  
